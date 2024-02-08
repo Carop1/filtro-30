@@ -600,4 +600,8 @@ main .btn-send:hover {
 	nav .divider {
 		display: none;
 	}
+	#sidebar.hide + #content{
+		width: calc(100% - 60px);
+		left: 60%;
+	}
 }
